@@ -1,0 +1,29 @@
+﻿  VisualStudioDenemesi.cpp
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>', dll arabiriminin class 'sql::SQLString' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\xstring(3997): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' bildirimine bakın
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>', dll arabiriminin class 'sql::SQLException' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\xstring(3997): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' bildirimine bakın
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>', dll arabiriminin struct 'sql::SQLUnsupportedOptionException' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\xstring(3997): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' bildirimine bakın
+  Unknown compiler version - please run the configure tests and report the results
+C:\Program Files\MySQL\Connector.C++ 1.1\include\mysql_connection.h(175): warning C4251: 'sql::mysql::MySQL_Connection::proxy': class 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>', dll arabiriminin class 'sql::mysql::MySQL_Connection' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files\MySQL\Connector.C++ 1.1\include\mysql_connection.h(175): note: 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>' bildirimine bakın
+C:\Program Files\MySQL\Connector.C++ 1.1\include\mysql_connection.h(179): warning C4251: 'sql::mysql::MySQL_Connection::service': class 'boost::scoped_ptr<sql::mysql::MySQL_Statement>', dll arabiriminin class 'sql::mysql::MySQL_Connection' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files\MySQL\Connector.C++ 1.1\include\mysql_connection.h(179): note: 'boost::scoped_ptr<sql::mysql::MySQL_Statement>' bildirimine bakın
+C:\Program Files\MySQL\Connector.C++ 1.1\include\mysql_connection.h(181): warning C4251: 'sql::mysql::MySQL_Connection::intern': class 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>', dll arabiriminin class 'sql::mysql::MySQL_Connection' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files\MySQL\Connector.C++ 1.1\include\mysql_connection.h(181): note: 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>' bildirimine bakın
+VisualStudioDenemesi.cpp(227): warning C4267: '=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+VisualStudioDenemesi.cpp(240): warning C4267: '=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+VisualStudioDenemesi.cpp(262): warning C4267: '=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+VisualStudioDenemesi.cpp(316): warning C4267: '=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+VisualStudioDenemesi.cpp(383): warning C4267: '=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+VisualStudioDenemesi.cpp(391): warning C4101: 'count': yerel değişken başvurusu kaldırıldı
+  Kod üretiliyor
+c:\users\yagiz\documents\visual studio 2017\projects\visualstudiodenemesi\visualstudiodenemesi\visualstudiodenemesi.cpp(269): warning C4715: 'checkTCKN': tüm denetim yolları değer döndürmez
+c:\users\yagiz\documents\visual studio 2017\projects\visualstudiodenemesi\visualstudiodenemesi\visualstudiodenemesi.cpp(60): warning C4700: başlatılmamış yerel değişken 'res' kullanıldı
+c:\users\yagiz\documents\visual studio 2017\projects\visualstudiodenemesi\visualstudiodenemesi\visualstudiodenemesi.cpp(60): warning C4700: başlatılmamış yerel değişken 'pstmt' kullanıldı
+  32 of 63 functions (50.8%) were compiled, the rest were copied from previous compilation.
+    20 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+  VisualStudioDenemesi.vcxproj -> C:\Users\yagiz\Documents\Visual Studio 2017\Projects\VisualStudioDenemesi\x64\Release\VisualStudioDenemesi.exe
